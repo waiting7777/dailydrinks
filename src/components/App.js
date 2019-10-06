@@ -3,6 +3,8 @@ import React from 'react';
 import OrderList from './OrderList';
 import AddOrder from './AddOrder';
 
+import './App.scss'
+
 function App() {
   return (
     <div className="app container">
