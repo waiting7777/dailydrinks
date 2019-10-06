@@ -1,0 +1,77 @@
+.order {
+  box-shadow: 2px 2px 4px rgba(0,0,0,.3);
+  position: relative;
+  padding-bottom: 30px;
+
+  .card-header {
+    padding: .5rem 1rem;
+  }
+
+  .fa-scroll {
+    margin-right: 5px;
+  }
+
+  &-column {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 10px;
+
+    input {
+      width: 100%;
+      height: 24px;
+      border-radius: 3px;
+    }
+  }
+
+  &-trash {
+    position: absolute;
+    bottom: 8px;
+    right: 10px;
+    font-size: 18px;
+    cursor: pointer;
+
+    .fa-times {
+      margin-right: 5px;
+    }
+  }
+
+  &-edit {
+    position: absolute;
+    bottom: 8px;
+    right: 90px;
+    font-size: 18px;
+    cursor: pointer;
+
+    .fa-edit {
+      margin-right: 5px;
+    }
+  }
+
+  &-cancel {
+    position: absolute;
+    bottom: 8px;
+    right: 10px;
+    font-size: 18px;
+    cursor: pointer;
+
+    .fa-ban {
+      margin-right: 5px;
+    }
+  }
+
+  &-save {
+    position: absolute;
+    bottom: 8px;
+    right: 95px;
+    font-size: 18px;
+    cursor: pointer;
+
+    .fa-save {
+      margin-right: 5px;
+    }
+  }
+}
+
+.order:hover {
+  transform: translate(1px, 1px);
+}

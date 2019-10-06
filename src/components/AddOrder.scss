@@ -1,0 +1,38 @@
+.add-order {
+  margin-top: 40px;
+  width: 18rem;
+  padding-bottom: 30px;
+
+  .card-header {
+    padding: .5rem 1rem;
+  }
+
+  .fa-wine-bottle {
+    margin-right: 5px;
+    font-size: 18px;
+  }
+
+  &-column {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 10px;
+
+    input {
+      width: 120px;
+      height: 28px;
+      border-radius: 3px;
+    }
+  }
+
+  &-save {
+    position: absolute;
+    bottom: 8px;
+    right: 10px;
+    font-size: 18px;
+    cursor: pointer;
+
+    .fa-save {
+      margin-right: 5px;
+    }
+  }
+}
