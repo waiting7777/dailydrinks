@@ -73,7 +73,7 @@ class Order extends React.Component {
             </button>
           </div>
           <div className="order-cancel" onClick={() => this.handleEdit(false)}>
-            <button className="btn btn-primary btn-sm">
+            <button className="btn btn-danger btn-sm">
               <i className="fas fa-ban"></i>Cancel
             </button>
           </div>
@@ -83,12 +83,12 @@ class Order extends React.Component {
       return (
         <div>
           <div className="order-trash" onClick={() => this.handleRemove()}>
-            <button className="btn btn-primary btn-sm">
+            <button className="btn btn-danger btn-sm">
               <i className="fas fa-times"></i>Delete
             </button>
           </div>
           <div className="order-edit" onClick={() => this.handleEdit(true)}>
-            <button className="btn btn-primary btn-sm">
+            <button className="btn btn-info btn-sm">
               <i className="fas fa-edit"></i>Edit
             </button>
           </div>
